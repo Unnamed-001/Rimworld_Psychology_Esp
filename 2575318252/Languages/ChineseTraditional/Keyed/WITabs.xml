@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!--<CertaintyChangePerDay>Daily change due to mood + personality</CertaintyChangePerDay>-->
+
+	<CertaintyChangePerDay>日新月异</CertaintyChangePerDay>
+	<AbilityIdeoConvertBreakdownPsychologyEffects>人格</AbilityIdeoConvertBreakdownPsychologyEffects>
+	<AbilityIdeoConvertBreakdownPawnCompatWithIdeo>与{PAWN_labelShort}的相容性{IDEO}</AbilityIdeoConvertBreakdownPawnCompatWithIdeo>
+	<AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>与{PAWN_labelShort}的不相容性{IDEO}</AbilityIdeoConvertBreakdownPawnIncompatWithIdeo>
+	<PsycheCurrentlyDisabled>心理学当前已禁用</PsycheCurrentlyDisabled>
+
+	<!-- WITab title -->
+	<TabPsyche>心理学</TabPsyche>
+
+	<!-- Sexuality disabled warning -->
+	<SexualityDisabledWarning>心理学的性系统被禁用，因为你的mod列表里有与之冲突的mod。请禁用任何其他改变殖民者性欲或互动的mod。</SexualityDisabledWarning>
+
+	<!-- Kinsey display and tooltip-->
+	<KinseyRating>金赛评级:</KinseyRating>
+	<KinseyDescription0>金赛量表</KinseyDescription0>
+	<KinseyDescription>{0}描述一个人的性取向，范围从0(表示完全异性恋)到6(表示完全同性恋)。\n\n金赛为了简单起见，选择了七个类别，并写道：“人的性倾向不再是非黑即白，而是一个多元混杂的连续体.”</KinseyDescription>
+
+	<!-- Sex drive display and tooltip-->
+	<SexDrive0>无性恋者</SexDrive0>
+	<SexDrive1>性欲低下</SexDrive1>
+	<SexDrive2>中等性欲</SexDrive2>
+	<SexDrive3>高性欲</SexDrive3>
+	<SexDrive4>极高性欲</SexDrive4>
+	<SexDriveDescription0>性欲</SexDriveDescription0>
+	<SexDriveDescription>{0}，也被称为性欲，描述一个人对性的总体欲望。</SexDriveDescription>
+	<AsexualDescription>这个殖民者的性欲很低。他们没有太多的性吸引力，也不太可能有任何亲密关系，但仍然可能会追求浪漫。</AsexualDescription>
+
+	<!-- Romance drive display and tooltip -->
+	<RomanticDrive0>无爱者</RomanticDrive0>
+	<RomanticDrive1>较弱的浪漫</RomanticDrive1>
+	<RomanticDrive2>中等的浪漫</RomanticDrive2>
+	<RomanticDrive3>较高的浪漫</RomanticDrive3>
+	<RomanticDrive4>极高的浪漫</RomanticDrive4>
+	<RomanticDriveDescription0>追求浪漫</RomanticDriveDescription0>
+	<RomanticDriveDescription>{0}一个人对浪漫的渴望程度。</RomanticDriveDescription>
+	<AromanticDescription>这个殖民者对浪漫的欲望很低。他们不太可能追求浪漫或接受求婚，但仍可能有情人。</AromanticDescription>
+
+	<!-- Display options -->
+	<OptionsText4>词云</OptionsText4>
+	<OptionsText3>列出最少</OptionsText3>
+	<OptionsText2>列出较多</OptionsText2>
+	<OptionsText1>列出最多</OptionsText1>
+	<OptionsText0>列出全部</OptionsText0>
+	<UseColors>将特征彩色化</UseColors>
+	<ListAlphabetical>按字母顺序列出</ListAlphabetical>
+	<UseAntonyms>使用反义词</UseAntonyms>
+	
+	<!-- Edit Psyche text -->
+	<EditPsyche>编辑</EditPsyche>
+	<PsycheEditor>改变人们的心理状态 {0}:</PsycheEditor>
+	<PsycheEditorNewColonist>改变殖民者的心理:</PsycheEditorNewColonist>
+	<PersonalityNodeWarning>你正在编辑一个殖民者个性的原始值。实际的统计数字会被其他因素影响。</PersonalityNodeWarning>
+	<SexDrive>性欲:</SexDrive>
+	<RomanticDrive>浪漫:</RomanticDrive>
+	<PsycheResetTooltip>根据他们独特的HashCode ID，将这个殖民者的心理素质重置为默认值。</PsycheResetTooltip>
+
+	<!-- Node descriptions -->
+	<PsycheNot>毫不</PsycheNot>
+	<PsycheSlightly>略微</PsycheSlightly>
+	<PsycheLess>些许</PsycheLess>
+	<PsycheSomewhat>有些</PsycheSomewhat>
+	<PsycheMore>比较</PsycheMore>
+	<PsycheVery>非常</PsycheVery>
+	<PsycheExtremely>极其</PsycheExtremely>
+
+	<!-- Conversation Tooltip -->
+	<ConversationTooltip>人们将以{0}和{1}为话题，进行相互讨论。</ConversationTooltip>
+	<PsycheComma>，</PsycheComma>
+	<AntonymColon> 对立面: {0}.</AntonymColon>
+
+	<!-- Big Five descriptions -->
+	<FiveFactorModelTitle>人格五因素</FiveFactorModelTitle>
+	<FiveFactorDescription0>人格五因素模型</FiveFactorDescription0>
+	<FiveFactorDescription>在20世纪末，{0}(大五)是根据词汇假说发展起来的，该假说认为人格的基本特征是在语言中编码的。在对包括英语、汉语、俄语和德语等多种语言的描述性特征术语的众多数据集进行分析后，始终出现了五个因素。<!--\n\nSource: Britannica--></FiveFactorDescription>
+	<BigFiveO>O</BigFiveO>
+	<BigFiveODescription0>经验开放性</BigFiveODescription0>
+	<BigFiveODescription>{0}是愿意接受新颖的想法、价值观、行动、感觉、幻想和美学。</BigFiveODescription>
+	<BigFiveC>C</BigFiveC>
+	<BigFiveCDescription0>认真性</BigFiveCDescription0>
+	<BigFiveCDescription>{0}是勤奋、效率、组织、计划、责任和自律的倾向。</BigFiveCDescription>
+	<BigFiveE>E</BigFiveE>
+	<BigFiveEDescription0>外倾性</BigFiveEDescription0>
+	<BigFiveEDescription>{0}是对满足的外在追求，表现为外向、健谈、精力充沛、乐观、自信和社交行为。</BigFiveEDescription>
+	<BigFiveA>A</BigFiveA>
+	<BigFiveADescription0>宜人性</BigFiveADescription0>
+	<BigFiveADescription>{0}是善良、同情、合作、热情、礼貌和同情的能力。</BigFiveADescription>
+	<BigFiveN>N</BigFiveN>
+	<BigFiveNDescription0>神经质</BigFiveNDescription0>
+	<BigFiveNDescription>{0}是消极情绪的倾向，如焦虑、恐惧、愤怒、嫉妒、内疚和悲伤。</BigFiveNDescription>
+
+</LanguageData>

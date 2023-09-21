@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<EnableKinseyTitle>启用移情变化</EnableKinseyTitle>
+	<EnableEmpathyTooltip>禁用此选项可以使小人恢复感受对发生在他人身上的不幸产生的正常反应。这将增加游戏难度。拥有 [软心肠] 特性的殖民者不会受到此功能的影响。禁用此选项后请重启游戏。</EnableEmpathyTooltip>
+
+	<EnableEmpathyTitle>启用性变化</EnableEmpathyTitle>
+	<EnableEmpathyTooltip>禁用此选项将禁用金赛量表对殖民者的性欲影响，并重新启用[同性恋]特性。请不要在游戏过程中更改此选项。禁用此选项后请重启游戏。</EnableEmpathyTooltip>
+	
+
+	
+	<KinseyFormulaTitle>金赛量表准则</KinseyFormulaTitle>
+	<KinseyFormulaTooltip>此设置将会影响生成小人时金赛量表将用何种公式来运算小人的性欲，权重的总和不必为100。。</KinseyFormulaTooltip>
+	<KinseyMode_Realistic>默认</KinseyMode_Realistic>
+	<KinseyMode_Invisible>中置</KinseyMode_Invisible>
+	<KinseyMode_Gaypocalypse>反向</KinseyMode_Gaypocalypse>
+	<KinseyMode_Uniform>统一</KinseyMode_Uniform>
+	<KinseyMode_Custom>自定义</KinseyMode_Custom>
+
+	<KWTitle>性倾向 {0}</KWTitle>
+	<KWTooltip>殖民者在金赛尺度为{0}时将生成的相对权重。权重不必总和为100。</KWTooltip>
+
+	<EnableIndividualityTitle>启用个性思维</EnableIndividualityTitle>
+	<EnableIndividualityTooltip>如果您的小人正因撞衫而苦恼，您可以禁用这个选项来消除那些影响。这个选项会增加额外的难度，所以您可以随时禁用它，但还是建议您开着比较好。</EnableIndividualityTooltip>
+	
+	
+	
+	<ConversationDurationTitle>交流记忆持续时间</ConversationDurationTitle>
+	<ConversationDurationTooltip>设置人们记住对话的时间。默认为60天，即一年。 最短可设定为15天，即一象，最长可设定为180天，即三年。 将其设置得越低将使殖民者之间的互动越短暂，将其设置的越高将使其越持久。更改该选项后需要重启游戏才能生效。</ConversationDurationTooltip>
+
+	<ConvoOpinionMultiplierTitle>对话意见乘数</ConvoOpinionMultiplierTitle>
+	<ConvoOpinionMultiplierTooltip>这个乘数控制了谈话中的意见变化有多大。</ConvoOpinionMultiplierTooltip>
+	
+	<EnableDateLettersTitle>发送约会通知</EnableDateLettersTitle>
+	<EnableDateLettersTooltip>禁用此选项后，您将不会在殖民者计划一起参加约会的时候收到通知。</EnableDateLettersTooltip>
+	
+<!--	<BenchmarkingTitle>Enable performance testing</BenchmarkingTitle>
+	<BenchmarkingTooltip>Turn this on to receive occasional performance reports in the console relating to Psychology systems. You can copy and paste these reports to assist in optimization of the mod. WARNING: Performance testing comes with its own performance impact.\n\nToggling this will restart your game.</BenchmarkingTooltip>-->
+  
+	<ImprisonedDebuffTitle>招募囚犯惩罚</ImprisonedDebuffTitle>
+	<ImprisonedDebuffTooltip>这为招募的囚犯设定了负面意见惩罚（派系监禁我）。更改该选项后需要重启游戏才能生效。.</ImprisonedDebuffTooltip>
+
+	<RomanceChanceMultiplierTitle>追求几率乘数</RomanceChanceMultiplierTitle>
+	<RomanceChanceMultiplierTooltip>追求成功的几率将会乘上这个数值，设为0则永远不成功。</RomanceChanceMultiplierTooltip>
+
+	<RomanceOpinionThresholdTitle>最低追求点</RomanceOpinionThresholdTitle>
+	<RomanceOpinionThresholdTooltip>一位殖民者对另一位殖民者的看法至少要达到这个数值才能被追求。</RomanceOpinionThresholdTooltip>
+	
+	<EnableElectionsTitle>启用选举</EnableElectionsTitle>
+	<EnableElectionsTooltip>将其关闭以防止您的殖民者进行年度选举。它不会阻止正在进行的选举，任何现有的镇长都将恢复为正常的殖民者。这不会影响与其他模组的兼容性。需要重新启动才能完全生效。</EnableElectionsTooltip> 
+
+	<MayorAgeTitle>镇长年龄限制</MayorAgeTitle>
+	<MayorAgeTooltip>当选镇长的最低年龄限制。</MayorAgeTooltip>
+
+	<VisitMayorMtbHoursTitle>选民访问镇长的时间间隔</VisitMayorMtbHoursTitle>
+	<VisitMayorMtbHoursTooltip>这控制了选民与镇长会面的间隔时间（以小时为单位）。数值越低将增加访问频率。</VisitMayorMtbHoursTooltip>
+
+	<MentalBreakAnxietyChanceTitle>允许创伤后应激性焦虑症</MentalBreakAnxietyChanceTitle>
+	<MentalBreakAnxietyChanceTooltip>这设定了一个殖民者在经历了一次重大的精神崩溃后，产生PTSD的平均机会。对于轻度崩溃，概率减半，对于极端崩溃，概率加倍。概率也取决于殖民者的心理。请注意，您可能仍然会将其视为由于衰老而导致的随机疾病。</MentalBreakAnxietyChanceTooltip>
+
+	<!--<BeatyOverrideEnabledTitle>Disable opinion changes from beauty traits</BeatyOverrideEnabledTitle>
+	<BeatyOverrideEnabledToolip>Disables opinion changes from traits such as: Pretty, Beautiful, Ugly, etc. Note that Psychology's changes to those traits would still work even if you disable this option. Its recommended to keep this option enabled.</BeatyOverrideEnabledToolip>-->
+	<TraitOpinionMultiplierTitle>特性影响观点乘数</TraitOpinionMultiplierTitle>
+	<TraitOpinionMultiplierTooltip>衡量以下特征的意见变化：漂亮、丑陋、毁容、烦人的声音、恶心的呼吸声、欣赏或厌恶超人主义和纯粹主义。设置为零以完全禁用。更改该选项后需要重启游戏才能生效。</TraitOpinionMultiplierTooltip>
+
+	<PersonalityExtremenessTitle>性格极端</PersonalityExtremenessTitle>
+	<PersonalityExtremenessTooltip>设置的人物个性将被提升到与五因素模型相匹配的程度。</PersonalityExtremenessTooltip>
+
+	<IdeoPsycheMultiplierTitle>文化交互乘数</IdeoPsycheMultiplierTitle>
+	<IdeoPsycheMultiplierTooltip>这控制了人物个性和意识形态相互作用的强度。设置为0以完全禁用</IdeoPsycheMultiplierTooltip>
+
+	<DisplayOptionsTitle>心理选项卡显示选项</DisplayOptionsTitle>
+	<DisplayOptionsTooltip>更改心理选项卡的默认显示选项。</DisplayOptionsTooltip>
+	<UseColorsTooltip>为心理选项卡中显示的特征着色。</UseColorsTooltip>
+	<ListAlphabeticalTooltip>在心理选项卡中按字母顺序列出特征。</ListAlphabeticalTooltip>
+	<UseAntonymsTooltip>在心理选项卡中使用特质反义词。</UseAntonymsTooltip>
+
+	<SpeciesSettingsTitle>物种名称</SpeciesSettingsTitle>
+	<SpeciesSettingsTooltip>调整每个物种的设置。</SpeciesSettingsTooltip>
+
+	<EnablePsycheTitle>心理学</EnablePsycheTitle>
+	<EnablePsycheTooltip>关闭此功能可停用人物个性功能。这建议用于无法具有类人性格的物种，例如僵尸或简单的机器人。请注意，该物种将禁用深度对话和浪漫。</EnablePsycheTooltip>
+
+	<EnableAgeGapTitle>代沟</EnableAgeGapTitle>
+	<EnableAgeGapTooltip>关闭此选项可停用考虑与该物种浪漫的年龄差距偏好。对于不会老化且成年后仍具有同等吸引力的类机器人和类精灵物种，建议使用此方法。</EnableAgeGapTooltip>
+
+<!--	<MinDatingAgeTooltip>Set the minimum dating age for this species. When positive, the effective age for dating-related formulas scales by this number relative to 14. Setting to 0 allows dating at any age and effectively disables the age gap. This is recommended for species such as sentient androids with no childhood phase. Any negative number disables dating completely for this species.</MinDatingAgeTooltip>-->
+<!--	<MinLovinAgeTooltip>Set the minimum lovin age for this species. When positive, the effective age for lovin-related formulas scales by this number relative to 16. Setting to 0 allows lovin at any age and effectively disables the age gap. This is recommended for species such as sentient androids with no childhood phase. Any negative number disables lovin completely for this species.</MinLovinAgeTooltip>-->
+  <MinDatingAgeTitle>约会</MinDatingAgeTitle>
+	<MinLovinAgeTitle>谈恋爱</MinLovinAgeTitle>
+
+	<datingRomanceBehavior>约会</datingRomanceBehavior>
+	<lovinRomanceBehavior>谈恋爱</lovinRomanceBehavior>
+	<MinRomanceAgeTooltip>这个物种最小的 {0_RomanceBehavior} 年龄。 数值为正时，与 {0_RomanceBehavior}-相关的公式中的有效年龄将按此数字相对于 {1_MinAge}进行缩放。设置为 0 允许任何年龄的 {0_RomanceBehavior}并有效地禁用年龄差距。这建议用于没有童年阶段的物种，例如有知觉的机器人。任何负数都会禁用此物种的 {0_RomanceBehavior} 。</MinRomanceAgeTooltip>
+
+	<!--<UpdateIntroMessageTitle>Update to Psychology</UpdateIntroMessageTitle>-->
+	<!--<UpdateIntroMessage>The method to generate personalities has been updated. The player is encouraged to select "update" to reset the personalities of old pawns. This option will always be available in the mod settings.</UpdateIntroMessage>-->
+	<!--<ApplyUpdateButton>Update</ApplyUpdateButton>-->
+	<!--<UpdateIntroMessage>Check out the mod settings to set your preferences for some of the new features.</UpdateIntroMessage>-->
+
+	<!--<UpdateYesNoDescription>This will reset the personalities of all pawns using the updated Psychology formula. The outcome is deterministic and pseudo-random based on an integer ID asscoiated with each pawn. This is recommended for the mod to act as intended. Do you wish to proceed?</UpdateYesNoDescription>-->
+	
+</LanguageData>
